@@ -1,7 +1,8 @@
 ---
 title: Work
 position: 2
-header: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+header: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+  incididunt ut labore
 pagination:
   enabled: true
   collection: work

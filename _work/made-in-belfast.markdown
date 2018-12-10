@@ -2,8 +2,8 @@
 title: Made in Belfast
 date: 2015-12-09 13:22:00 Z
 position: 27
-excerpt: Seeking out the legacy of a generations-old conflict now in remission
-  under a fragile peace agreement.
+excerpt: Seeking out the legacy of a generations-old conflict now in remission under
+  a fragile peace agreement.
 vimeo: 143015938
 image: "/uploads/made-in-belfast.jpg"
 is-selected: true

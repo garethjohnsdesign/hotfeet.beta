@@ -5,11 +5,14 @@ collections:
   notes:
     title: Notes
     output: true
-  work:
-    title: Work
+  posts:
+    title: Posts
     output: true
   uploads:
     title: Uploads
+    output: true
+  work:
+    title: Work
     output: true
 defaults:
 - scope:
@@ -25,7 +28,7 @@ defaults:
     excerpt: 
     description: 
     image: 
-    video:
+    video: 
     has-carousel-text: 
     is-carousel: 
     is-selected: 
@@ -37,7 +40,8 @@ defaults:
     cite: 
     layout: page
 url: https://www.hotfeet.co
-description: We work across borders and cultural divides creating long and short form content for online platforms, broadcast and cinematic release. 
+description: We work across borders and cultural divides creating long and short form
+  content for online platforms, broadcast and cinematic release.
 permalink: pretty
 exclude:
 - bower.json
@@ -65,10 +69,10 @@ kramdown:
 highlighter: rouge
 company: Hot Feet Ltd
 company-address: Office 5, Unit R1, Penfold Works, Imperial Way, Watford, WD24 4YY
-company-registration: 09383714
+company-registration: '09383714'
 colophon: https://www.garethjohnsdesign.com
 email: hello@hotfeet.co
-analytics:
+analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %Y"

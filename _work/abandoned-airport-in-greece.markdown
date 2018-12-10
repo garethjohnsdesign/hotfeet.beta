@@ -2,8 +2,8 @@
 title: Abandoned Airport in Greece
 date: 2015-12-09 13:22:00 Z
 position: 27
-excerpt: Asylum seekers live inside the arrivals terminal of a decaying airport
-  in Greece.
+excerpt: Asylum seekers live inside the arrivals terminal of a decaying airport in
+  Greece.
 description-text: We were commissioned to cover the growing by the Guardian sed posuere
   consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris
   condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus

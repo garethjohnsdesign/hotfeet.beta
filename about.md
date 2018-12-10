@@ -1,7 +1,7 @@
 ---
 title: About
 position: 1
-description:
+description: 
 layout: about
 ---
 

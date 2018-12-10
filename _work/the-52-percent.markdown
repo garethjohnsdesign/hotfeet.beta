@@ -2,8 +2,8 @@
 title: The 52%
 date: 2015-12-09 13:22:00 Z
 position: 27
-excerpt: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-  lacinia odio sem nec elit.
+excerpt: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+  odio sem nec elit.
 vimeo: 143015938
 image: "/uploads/the-52-percent.jpg"
 is-selected: false
