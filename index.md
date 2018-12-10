@@ -1,7 +1,7 @@
 ---
 title: Hot Feet
 position: 0
-image: "/assets/img/og-image.png"
+image: "/uploads/og-image.png"
 header: We are a London and Dublin-based film production collective, digging deep
   to investigate and search for the truth
 sub-header: Working across borders and cultural divides, creating long and short-form
