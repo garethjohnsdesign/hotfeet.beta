@@ -1,0 +1,168 @@
+---
+layout: default
+---
+
+<!-- Page Excerpt -->
+{% if page.excerpt %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-left">
+    <div class="small-12 medium-10 large-9 medium-offset-1 large-offset-1 cell">
+      <h1 class="h3">{{page.excerpt}}</h1>
+      {% if page.client %}
+      <h3 class="sans-regular medium-gray">{{page.client}}</h3>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Page Excerpt -->
+
+<!-- Page Image -->
+{% if page.image %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell">
+      {% assign image = page.image %}
+      <div data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" class="light-gray-background image">
+
+      {% if page.video %}
+      <div class="grid-y height-100 align-center video">
+        <div class="shrink cell text-center" data-src="{{page.video}}">
+          <a href="{{page.video}}" class="white"><svg class="icon icon-play-circle"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play-circle"></use></svg></a>
+        </div>
+      </div>
+      {% endif %}
+
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Page Image -->
+
+<!-- Page Description -->
+{% if page.description %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 cell">
+      <h2>{{page.description}}</h2>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Page Description -->
+
+<!-- Page Carousel -->
+{% if page.has-carousel %}
+<div class="grid-x grid-padding-y align-center">
+  <div class="small-12 cell">
+
+    <div class="carousel__container">
+      <div class="carousel">
+        {% for carouselimage in page.images %}
+        {% assign image = carouselimage.image %}
+          <div class="carousel-image margin-horizontal-1" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}"></div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endif %}
+<!-- End Page Carousel -->
+
+<!-- Page Content -->
+{% if page.content %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 cell page__content padding-bottom-2">
+      {{ page.content | replace: "/uploads", "https://earn-studios.imgix.net/uploads" | markdownify }}
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Page Content -->
+
+<!-- Page Quote -->
+{% if page.quote %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 cell text-center">
+      <h3 class="margin-bottom-0">"{{page.quote}}"</h3>
+      <h4 class="medium-gray">{{page.cite}}</h3>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Page Quote -->
+
+<!-- Meta -->
+<div class="grid-container">
+ <div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-10 cell text-center">
+    
+    {% if page.discipline %}
+    <div>Discipline</div>
+  	<div class="secondary-color margin-bottom-1">{{ page.discipline }}</div>
+  	{% endif %}
+  	
+  	{% if page.format %}
+    <div>Format</div>
+    <div class="secondary-color margin-bottom-1">
+    {% for format in page.format %}
+    <div>{{ format }}</div>
+    {% endfor %}
+    </div>
+    {% endif %}
+
+  	{% if page.press %}
+  	<div>Press</div>
+    <div class="secondary-color margin-bottom-1">
+    {% for press in page.press %}
+    <div><a href="{{ press.link }}" class="secondary-color">{{ press.publication }}</a></div>
+    {% endfor %}
+    </div>
+    {% endif %}
+  	
+  </div>
+ </div>
+</div>
+<!-- End Meta -->
+
+<!-- Pagination -->
+{% if page.collection %}
+  {% assign links = site[page.collection] | sort: 'position'  %}
+{% endif %}
+
+{% for link in links %}
+	{% if link.title == page.title %}
+
+		{% unless forloop.first %}
+			{% assign prev = tmpprev %}
+		{% endunless %}
+
+		{% unless forloop.last %}
+			{% assign next = links[forloop.index] %}
+		{% endunless %}
+
+    {% if forloop.last %}
+      {% assign next = links[0] %}
+    {% endif %}
+    
+	{% endif %}
+	{% assign tmpprev = link %}
+{% endfor %}
+
+{% if next %}
+<div class="grid-x margin-top-2 light-gray-background" style="min-height: 350px">
+  {% assign image = next.image %}
+  <div class="small-12 medium-6 cell pagination-image" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}" style="min-height: 350px">
+  </div>
+  
+  <div class="small-12 medium-6 cell padding-space-1">
+    <h5 class="sans-regular medium-gray">Next Project</h5>
+    <a href="{{next.url}}" class="h5 sans-regular">{{next.title}}</a>
+  </div>
+</div>
+{% endif %}
+<!-- End Pagination -->

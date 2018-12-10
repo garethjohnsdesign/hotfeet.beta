@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="grid-container">
+  
+  <div class="grid-x grid-padding-x grid-padding-y margin-bottom-2">
+    <div class="small-12 medium-10 large-10 cell" data-aos="fade-in">
+      <h4>{{page.content}}</h4>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
+    {% for person in page.people %}
+  	<div class="cell" data-aos="fade-in">
+      <img src="{{ person.image }}" class="margin-bottom-1" alt="{{person.name}}">
+      <h4 class="secondary-color margin-bottom-0">{{person.name}}</h4>
+      <h4 class="margin-bottom-1">{{person.role}}</h4>
+      {{person.description | markdownify}}
+  	</div>
+  	{% endfor %}
+  </div>
+  
+</div>
