@@ -1,6 +1,6 @@
 ---
 title: Team
-position: 4
+position: 5
 people:
 - image: "/uploads/hen-norton.jpg"
   name: Hen Norton

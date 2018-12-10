@@ -1,6 +1,6 @@
 ---
 title: Contact
-position: 2
+position: 3
 details:
 - title: General Enquiries
   text: "[hello@hotfeet.co](mailto:hello@hotfeet.co)  \n[07518910842](tel:07518910842)
