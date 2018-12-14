@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html class="no-js" lang="en" dir="ltr">
+<html lang="en" dir="ltr">
 
 <!-- Head -->
 {% include site/head.html %}
@@ -23,7 +23,7 @@ layout: compress
 </div>
 <!-- End Off-Canvas Legal  -->
 
-<div class="off-canvas-content" data-off-canvas-content>
+<div class="off-canvas-content transition-fade" id="swup" data-off-canvas-content>
 
 <!-- Header -->
 {% include site/header.html %}
@@ -74,5 +74,9 @@ layout: compress
 </div>
 
 </body>
+
+  <!-- Scripts -->
+  {% include site/scripts.html %}
+  <!-- End Scripts -->
 
 </html>

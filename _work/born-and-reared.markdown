@@ -3,7 +3,7 @@ title: Born and Reared
 date: 2015-12-09 13:22:00 Z
 position: 27
 excerpt: Maecenas sed diam eget risus varius blandit sit amet non magna.
-vimeo: 143015938
+video: 143015938
 image: "/uploads/born-and-reared.jpg"
 is-selected: true
 images:
