@@ -928,6 +928,86 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/js/swup/plugins/swupGaPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/swup/plugins/min/swupGaPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup/plugins/swupGaPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/swup/plugins/min/swupGaPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup/plugins/swupGtmPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/swup/plugins/min/swupGtmPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup/plugins/swupGtmPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/swup/plugins/min/swupGtmPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup/plugins/swupMergeHeadPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/swup/plugins/min/swupMergeHeadPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup/plugins/swupMergeHeadPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/swup/plugins/min/swupMergeHeadPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup/swup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/assets/js/swup/min/swup-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup/swup.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/swup/min/swup.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/scss/_flickity.css": {
 		"aP": 0,
 		"bl": 0,
@@ -9406,38 +9486,44 @@
 	"/assets/js/app.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/bower_components/jquery/dist/jquery.js",
+			"linkedFileAbbreviatedPath": "/assets/js/swup/swup.js",
 			"position": 0,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/foundation-sites/dist/js/foundation.js",
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/bower_components/jquery/dist/jquery.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
+			"linkedFileAbbreviatedPath": "/bower_components/foundation-sites/dist/js/foundation.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.min.js",
+			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.min.js",
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.min.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-autoplay.min.js",
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.min.js",
 			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-autoplay.min.js",
+			"position": 6,
 			"type": 0
 			}
 		]
