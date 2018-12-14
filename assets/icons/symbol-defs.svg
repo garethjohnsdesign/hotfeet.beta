@@ -99,6 +99,10 @@
 <title>arrow_forward</title>
 <path d="M16 5.313l10.688 10.688-10.688 10.688-1.875-1.875 7.438-7.5h-16.25v-2.625h16.25l-7.438-7.5z"></path>
 </symbol>
+<symbol id="icon-play_arrow" viewBox="0 0 32 32">
+<title>play_arrow</title>
+<path d="M10.688 6.688l14.625 9.313-14.625 9.313v-18.625z"></path>
+</symbol>
 <symbol id="icon-sort" viewBox="0 0 32 32">
 <title>sort</title>
 <path d="M4 17.313v-2.625h16v2.625h-16zM4 8h24v2.688h-24v-2.688zM4 24v-2.688h8v2.688h-8z"></path>

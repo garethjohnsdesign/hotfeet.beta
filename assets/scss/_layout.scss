@@ -284,6 +284,8 @@ $scrollhide-nav-transition-speed: 1s;
     left: 0;
     right: 0;
     bottom: 0;
+height: 100%;
+width: 100%;
   }
 }
 
@@ -314,3 +316,18 @@ $scrollhide-nav-transition-speed: 1s;
 color: $black;
 }
 
+
+.works__list {
+  color: $medium-gray;
+  @include links ($medium-gray, $black);
+}
+
+.works__list a {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.works__list .active {
+  color: $black;
+}
