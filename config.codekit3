@@ -9486,13 +9486,13 @@
 	"/assets/js/app.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/assets/js/swup/swup.js",
+			"linkedFileAbbreviatedPath": "/bower_components/jquery/dist/jquery.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/bower_components/jquery/dist/jquery.js",
+			"linkedFileAbbreviatedPath": "/assets/js/swup/swup.js",
 			"position": 1,
 			"type": 0
 			},
