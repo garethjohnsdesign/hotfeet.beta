@@ -918,12 +918,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/assets/js/svgxuse.js": {
+	"/assets/js/swup.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/js/min/svgxuse-min.js",
+		"oAP": "/assets/js/min/swup-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -992,7 +992,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/assets/js/swup/min/swup-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1550,6 +1550,26 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/assets/svgxuse.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/min/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/swup-app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/min/swup-app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"/bower.json": {
 		"ft": 524288,
@@ -9491,39 +9511,33 @@
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "/assets/js/swup/swup.js",
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/foundation-sites/dist/js/foundation.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/foundation-sites/dist/js/foundation.js",
+			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.min.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.min.js",
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.min.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.min.js",
-			"position": 5,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-autoplay.min.js",
-			"position": 6,
+			"position": 5,
 			"type": 0
 			}
 		]
