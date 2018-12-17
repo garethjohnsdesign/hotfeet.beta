@@ -868,42 +868,12 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/assets/js/links.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/links-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/assets/js/min/app-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/min/min/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/min/links-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/min/links-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/min/project-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/min/project-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -918,12 +888,22 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/assets/js/swup.js": {
+	"/assets/js/svgxuse.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/js/min/swup-min.js",
+		"oAP": "/assets/js/min/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/swup-app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/swup-app-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1551,22 +1531,22 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/assets/svgxuse.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/min/svgxuse-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/assets/swup-app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/min/swup-app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/swup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/min/swup-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1669,7 +1649,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/bower_components/aos/dist/aos.js",
 		"oF": 0,
 		"sC": 1,
@@ -7135,7 +7115,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/bower_components/lightgallery/dist/js/lightgallery.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -7222,7 +7202,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/bower_components/lightgallery/modules/lg-autoplay.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -7342,7 +7322,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/bower_components/lightgallery/modules/lg-video.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -9514,30 +9494,6 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/bower_components/foundation-sites/dist/js/foundation.js",
 			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.min.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.min.js",
-			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-autoplay.min.js",
-			"position": 5,
 			"type": 0
 			}
 		]
