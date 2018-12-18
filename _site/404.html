@@ -17,7 +17,7 @@
 <meta property="og:url" content="https://www.hotfeet.co/404.html" />
 <meta property="og:site_name" content="Hot Feet" />
 <script type="application/ld+json">
-{"url":"https://www.hotfeet.co/404.html","headline":"Page not found","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.hotfeet.co/assets/img/logo.svg"}},"description":"We work across borders and cultural divides creating long and short form content for online platforms, broadcast and cinematic release.","@type":"WebPage","@context":"http://schema.org"}</script>
+{"description":"We work across borders and cultural divides creating long and short form content for online platforms, broadcast and cinematic release.","@type":"WebPage","url":"https://www.hotfeet.co/404.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.hotfeet.co/assets/img/logo.svg"}},"headline":"Page not found","@context":"http://schema.org"}</script>
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
@@ -31,11 +31,8 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
   <link rel="alternate" type="application/rss+xml" title="Hot Feet" href="https://www.hotfeet.co/feed.xml">
   <script src="/assets/js/min/app-min.js" defer></script>
-  <script src="/assets/js/min/swup.min-min.js" defer></script>
-  <script src="/assets/js/min/main-min.js" defer></script>
 </head>
 <body class="page">
-<main id="swup" class="transition-fade">
 <div class="off-canvas position-right" id="offCanvasMenu" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
 <div class="grid-x grid-padding-x grid-padding-y padding-3">
   <div class="small-12 cell">
@@ -67,18 +64,15 @@
 </div>
 </div>
 <div class="off-canvas-content" data-off-canvas-content>
-<div class="navigation" data-sticky-container>
-  <div data-sticky data-options="marginTop:0;" style="width:100%" class="scrollhide-nav">
-    <header class="grid-x grid-padding-x grid-padding-y padding-1 align-justify align-middle">
-      <div class="shrink cell">
-      <a href="/" class="h4">Page not found</a>
-      </div>
-      <div class="shrink cell">
-        <a data-toggle="offCanvasMenu" style="z-index: 1001"><svg class="icon icon-sort"><use xlink:href="/assets/icons/symbol-defs.svg#icon-sort"></use></svg></a>
-      </div>
-    </header>
+<header class="grid-x grid-padding-x grid-padding-y padding-1 align-justify align-middle">
+  <div class="shrink cell swup-transition-fade" id="maintest">
+  <a href="/" class="h4">Page not found</a>
   </div>
-</div>
+  <div class="shrink cell">
+    <a data-toggle="offCanvasMenu" style="z-index: 1001"><svg class="icon icon-sort"><use xlink:href="/assets/icons/symbol-defs.svg#icon-sort"></use></svg></a>
+  </div>
+</header>
+<main id="main" class="swup-transition-fade-up">
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 cell page__content padding-bottom-2">
@@ -110,7 +104,7 @@
       </ul>
   </div>
 </footer>
-</div>
 </main>
+</div>
 </body>
 </html>
