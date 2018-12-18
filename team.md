@@ -5,11 +5,16 @@ people:
 - image: "/uploads/hen-norton.jpg"
   name: Hen Norton
   role: Creative Director
-  description: |-
-    London born filmmaker Henrietta Norton honed her craft originally in the arts, working with clients including the British Council, The Arts Council and Independent Production Companies such as Artichoke and motiroti, before deciding that film better suited the narratives she wanted to shape.
-    Starting on commercial doc-style pieces for Youtube and others, she moved into more journalism based stories whilst working at Kids Company - one of the most famed children’s charities in the UK.
-    She found her niche and moved on to tell stories in communities in North Dakota, Greece and Northern Ireland. She is drawn to exploring and investigating the more complex aspects of contemporary themes, like migration and identity.
-    She has an innate ability to build trust with contributors and subjects quickly and genuinely. A previous Producer said of her; “You can drop her in anywhere, for any amount of time, and she’ll find and tell the most interesting story there.” Hen can see the bigger picture with stories and has a strong sense of narrative direction.
+  description: "London-born filmmaker Henrietta Norton honed her craft originally
+    in the arts; working with clients including the British Council, The Arts Council
+    and independent production companies such as Artichoke and motiroti.\n\nStarting
+    her film work with commercial doc-style films for clients like Youtube and the
+    BBC Worldwide, she went on to make docs about communities in the US, Greece and,
+    with her feature, Northern Ireland. \n\nShe is drawn to exploring and investigating
+    the more complex aspects of contemporary themes, like migration and identity and
+    has an innate ability to build trust with contributors and subjects quickly and
+    genuinely. \n\nA previous Producer said of her; “You can drop her in anywhere,
+    for any amount of time, and she’ll find and tell the most interesting story there.”"
 - image: "/uploads/dan-dennison.jpg"
   name: Dan Dennison
   role: Director
