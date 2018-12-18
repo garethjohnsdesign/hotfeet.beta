@@ -1,19 +1,14 @@
 <!-- Header -->
-<div class="navigation" data-sticky-container>
-  <div data-sticky data-options="marginTop:0;" style="width:100%" class="scrollhide-nav">
   
-    <header class="grid-x grid-padding-x grid-padding-y padding-1 align-justify align-middle">
-      <div class="shrink cell">
-      {% if page.layout == "page" %}
-      <a href="/" class="h4">{{page.title}}</a>
-      {% else %}
-      <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
-      {% endif %}
-      </div>
-      <div class="shrink cell">
-        <a data-toggle="offCanvasMenu" style="z-index: 1001"><svg class="icon icon-sort"><use xlink:href="/assets/icons/symbol-defs.svg#icon-sort"></use></svg></a>
-      </div>
-    </header>
-  
+<header class="grid-x grid-padding-x grid-padding-y padding-1 align-justify align-middle">
+  <div class="shrink cell swup-transition-fade" id="maintest">
+  {% if page.layout == "page" %}
+  <a href="/" class="h4">{{page.title}}</a>
+  {% else %}
+  <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
+  {% endif %}
   </div>
-</div>
+  <div class="shrink cell">
+    <a data-toggle="offCanvasMenu" style="z-index: 1001"><svg class="icon icon-sort"><use xlink:href="/assets/icons/symbol-defs.svg#icon-sort"></use></svg></a>
+  </div>
+</header>

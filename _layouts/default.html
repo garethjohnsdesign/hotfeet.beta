@@ -11,6 +11,8 @@ layout: compress
 
 <body class="{{page.layout | slugify}}">
 
+
+
 <!-- Off Canvas Right -->
 <div class="off-canvas position-right" id="offCanvasMenu" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
 {% include off-canvas/menu.html %}
@@ -23,11 +25,13 @@ layout: compress
 </div>
 <!-- End Off-Canvas Legal  -->
 
-<div class="off-canvas-content transition-fade" id="swup" data-off-canvas-content>
+<div class="off-canvas-content" data-off-canvas-content>
 
 <!-- Header -->
 {% include site/header.html %}
 <!-- End Header -->
+
+<main id="main" class="swup-transition-fade-up">
 
 <!-- Content -->
 {{content}}
@@ -68,18 +72,14 @@ layout: compress
 {% endif %}
 <!-- End Call to Action -->
 
-Test
-
 <!-- Footer -->
 {% include site/footer.html %}
-<!-- End Footer-->
+<!-- End Footer -->
+
+</main>
+
+
 </div>
-s
-<script src="/assets/swup.js"></script>
-<script src="/assets/swup-app.js"></script>
-<!-- Scripts -->
-{% include site/scripts.html %}
-<!-- End Scripts -->
 
 </body>
 
