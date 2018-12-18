@@ -27,10 +27,13 @@ people:
 - image: "/uploads/mary-carson.jpg"
   name: Mary Carson
   role: Executive Producer
-  description: |-
-    Mary Carson is a Derry born journalist, multimedia producer/director and archive specialist. In her time chasing stories, she has traveled extensively, produced and directed, written, edited and photographed for newspapers, websites, documentaries and books in Ireland, the UK, the Gulf, New Orleans, New York and Australia.
-    Mary has extensive experience in print, radio, documentary and social media journalism, having produced content across a range of platforms and locations. She is firmly anchored in evidence-based journalism and has produced factual and news content for BBC; TV and Radio; Channel 4's Dispatches and Cutting Edge strands; BBC 4 Documentaries and Guardian Multimedia Investigations.
-    The stories she has told are varied; covering everything from a homeless author destroyed by the literary system to successfully investigating links between the slave trade and fish production for multinational retail giants across two continents.
+  description: "Mary Carson is a Derry-born Journalist, Multimedia Producer/Director
+    and Archive Specialist. In her time chasing stories, she has traveled extensively,
+    produced and directed, written, edited and photographed for newspapers, websites,
+    documentaries and books in Ireland, UK, the Gulf,  the US and Australia. \n\nShe
+    is firmly anchored in evidence-based journalism and has produced factual and news
+    content for BBC (TV and Radio), Channel 4's 'Dispatches' and 'Cutting Edge' strands;
+    BBC 4 Documentaries and The Guardian's  'Multimedia Investigations' team."
 layout: team
 ---
 
