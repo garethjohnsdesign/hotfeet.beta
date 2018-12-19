@@ -48,11 +48,11 @@ awards:
 - Best Human Rights Feature (Nominated)
 - Best Documentary (Nominated)
 quotes:
-- quote: This is a sensitive observation of what it was like growing up in the troubles,
+- text: This is a sensitive observation of what it was like growing up in the troubles,
     or being a part of them. It captures the regrets and the fears of thoughtful people,
     to this day. The concerns for the future are powerful. It deserves a wide audience
   cite: Alastair Stewart OBE, ITV News
-- quote: If there was ever a film that should be watched to show the reality of growing
+- text: If there was ever a film that should be watched to show the reality of growing
     up in Northern Ireland, this is it. No frills, no sanitisation, but rather honesty
     and reality nestled between characteristic Northern grit, humour and sadness.
     An emotional watch, but an important one. Born and Reared will answer some questions,

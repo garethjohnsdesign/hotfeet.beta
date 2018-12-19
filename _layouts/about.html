@@ -6,8 +6,11 @@ layout: default
 {% if page.content %}
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 cell page__content padding-bottom-2 h5">
+    <div class="small-12 cell padding-bottom-2">
+      <h3 class="margin-bottom-2 medium-gray">Profile</h3>
+      <div class="h5">
       {{ page.content | replace: "/uploads", "https://hot-feet.imgix.net/uploads" | markdownify }}
+      </div>
     </div>
   </div>
 </section>
@@ -15,6 +18,7 @@ layout: default
 <!-- End Page Content -->
 
 <section class="grid-container">
+<h3 class="margin-bottom-1 medium-gray">Team</h3>
 <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-1 large-up-3">
   {% for person in page.people %}
 	<div class="cell" data-aos="fade-in">

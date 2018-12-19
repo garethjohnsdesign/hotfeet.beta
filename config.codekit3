@@ -237,13 +237,6 @@
 		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
-	"/_layouts/team.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_layouts/team.html",
-		"oF": 0
-		},
 	"/_layouts/work.html": {
 		"cB": 0,
 		"ft": 8192,
