@@ -11,6 +11,8 @@ layout: compress
 
 <body class="{{page.layout | slugify}}">
 
+<!-- Off Canvas Wrapper -->
+<div class="off-canvas-wrapper">
 <!-- Off Canvas Right -->
 <div class="off-canvas position-right" id="offCanvasMenu" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
 {% include off-canvas/menu.html %}
@@ -24,13 +26,15 @@ layout: compress
 <!-- End Off-Canvas Legal  -->
 
 <!-- Off-Canvas Subscribe -->
+<!--
 <div class="off-canvas position-bottom" id="offCanvasSubscribe" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
 {% include off-canvas/subscribe.html %}
 </div>
+-->
 <!-- End Off-Canvas Subscribe  -->
 
-<div class="off-canvas-content" style="height: 100vh;" data-off-canvas-content>
-
+<!-- Off-Canvas Content -->
+<div class="off-canvas-content" data-off-canvas-content>
 <!-- Header -->
 {% include site/header.html %}
 <!-- End Header -->
@@ -75,14 +79,18 @@ layout: compress
 {% endif %}
 <!-- End Call to Action -->
 
+
+</main>
+
 <!-- Footer -->
 {% include site/footer.html %}
 <!-- End Footer -->
 
-</main>
-
 
 </div>
+<!-- End Off-Canvas Content -->
+</div>
+<!-- End Off-Canvas Wrapper -->
 
 </body>
 
