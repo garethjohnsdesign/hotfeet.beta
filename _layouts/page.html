@@ -8,9 +8,6 @@ layout: default
   <div class="grid-x grid-padding-x grid-padding-y align-left">
     <div class="small-12 medium-10 large-9 medium-offset-1 large-offset-1 cell">
       <h1 class="h3">{{page.excerpt}}</h1>
-      {% if page.client %}
-      <h3 class="sans-regular medium-gray">{{page.client}}</h3>
-      {% endif %}
     </div>
   </div>
 </section>
@@ -22,17 +19,16 @@ layout: default
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 cell">
+
       {% assign image = page.image %}
       <div data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" class="light-gray-background image">
-
-      {% if page.video %}
-      <div class="grid-y height-100 align-center video content">
-        <div class="shrink cell text-center" data-src="{{page.video}}">
-          <a href="{{page.video}}" class="white"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+        {% if page.video %}
+        <div class="grid-y height-100 align-center video content">
+          <div class="shrink cell text-center" data-src="{{page.video}}">
+            <a href="{{page.video}}" class="white"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+          </div>
         </div>
-      </div>
-      {% endif %}
-
+        {% endif %}
       </div>
 
     </div>
@@ -85,15 +81,19 @@ layout: default
 <!-- End Page Content -->
 
 <!-- Page Quote -->
-{% if page.quote %}
+{% if page.quotes %}
+
+{% for quote in page.quotes %}
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 cell text-center">
-      <h3 class="margin-bottom-0">"{{page.quote}}"</h3>
-      <h4 class="medium-gray">{{page.cite}}</h3>
+      <h4>{{quote.text}}</h4>
+      <h5 class="medium-gray">{{quote.cite}}</h5>
     </div>
   </div>
 </section>
+{% endfor %}
+
 {% endif %}
 <!-- End Page Quote -->
 
@@ -134,7 +134,6 @@ layout: default
     </div>
     {% endif %}
 
-<!--
     {% if page.awards %}
   	<div>Awards</div>
     <div class="secondary-color margin-bottom-1">
@@ -143,16 +142,6 @@ layout: default
     {% endfor %}
     </div>
     {% endif %}
--->
-
-{% unless page.awards.content == blank %}
-  	<div>Awards</div>
-    <div class="secondary-color margin-bottom-1">
-    {% for award in page.awards %}
-    <div>{{ award }}</div>
-    {% endfor %}
-    </div>
-{% endunless %}
   	
   </div>
  </div>

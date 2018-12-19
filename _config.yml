@@ -36,16 +36,6 @@ defaults:
     discipline: 
     format:
     - 
-    screenings:
-    - 
-    press:
-    - publication: 
-      link: 
-    awards:
-    - 
-    quotes:
-    - quote: 
-      cite: 
     layout: page
 url: https://www.hotfeet.co
 description: We work across borders and cultural divides creating long and short form
