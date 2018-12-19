@@ -24,11 +24,11 @@ defaults:
     path: ''
     type: work
   values:
-    excerpt:
-    description:
-    image:
-    client:
-    video:
+    excerpt: 
+    description: 
+    image: 
+    client: 
+    video: 
     images:
     - image: 
       caption: 
