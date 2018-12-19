@@ -543,26 +543,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/assets/css/app-blessed1-ck.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "/assets/css/app-blessed1-ck-ck.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"/assets/css/app-blessed1.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "/assets/css/app-blessed1-ck.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"/assets/css/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -572,13 +552,6 @@
 		"oAP": "/assets/css/app-ck.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"/assets/css/app.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/assets/css/app.css.map",
-		"oF": 0
 		},
 	"/assets/favicons/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -1053,11 +1026,11 @@
 		},
 	"/assets/scss/app.scss": {
 		"aP": 1,
-		"bl": 1,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/app.css",
 		"oF": 0,
