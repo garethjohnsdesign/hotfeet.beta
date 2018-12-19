@@ -7,6 +7,7 @@ excerpt: A story of four men in Northern Ireland living in the aftermath of a co
 image: "/uploads/born-and-reared-feature.jpg"
 video: https://vimeo.com/149032266
 is-featured: true
+is-full-width: true
 images:
 - image: "/uploads/toyota-runner-3.jpg"
   caption: Test

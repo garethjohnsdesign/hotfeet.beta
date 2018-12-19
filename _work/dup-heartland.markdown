@@ -8,7 +8,6 @@ excerpt: East Belfast is the heartland of Protestant, unionist politics and ther
 image: "/uploads/the-dup-heartland.jpg"
 client: The Guardian
 video: https://vimeo.com/307010547
-is-featured: true
 discipline: Film
 format:
 - 11min

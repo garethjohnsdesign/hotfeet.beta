@@ -6,7 +6,6 @@ excerpt: We travelled around the country to meet a selection of the majority of 
   citizens who voted to leave the European Union
 image: "/uploads/the-52-percent-feature.jpg"
 video: https://vimeo.com/149032266
-is-featured: true
 discipline: Film
 format:
 - 8min
