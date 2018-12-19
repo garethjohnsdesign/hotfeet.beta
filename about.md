@@ -1,6 +1,6 @@
 ---
 title: About
-position: 3
+position: 2
 description: 
 people:
 - image: "/uploads/hen-norton-rev.jpg"
