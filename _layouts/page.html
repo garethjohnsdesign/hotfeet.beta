@@ -134,7 +134,8 @@ layout: default
     </div>
     {% endif %}
 
-    {% if page.awards.size > 0 %}
+<!--
+    {% if page.awards %}
   	<div>Awards</div>
     <div class="secondary-color margin-bottom-1">
     {% for award in page.awards %}
@@ -142,6 +143,16 @@ layout: default
     {% endfor %}
     </div>
     {% endif %}
+-->
+
+{% unless page.awards.content == blank %}
+  	<div>Awards</div>
+    <div class="secondary-color margin-bottom-1">
+    {% for award in page.awards %}
+    <div>{{ award }}</div>
+    {% endfor %}
+    </div>
+{% endunless %}
   	
   </div>
  </div>
