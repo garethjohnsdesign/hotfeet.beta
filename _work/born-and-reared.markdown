@@ -23,14 +23,16 @@ images:
   caption: 
 discipline: Film
 press:
-- publication: Guardian
-  link: https://www.theguardian.com/uk
-- publication: VICE
-  link: https://www.theguardian.com/uk
+- publication: Totally Dublin
+  link: http://www.totallydublin.ie/more/features-more/born-and-reared-hen-norton-dan-dennison-interview/
+- publication: FilmIreland
+  link: http://filmireland.net/2016/07/18/interview-henrietta-norton-born-and-reared/
 format:
-- 100+ press + marketing images
-- 2 social media films
-- 1 festival highlights film
+- 68min feature film
+awards:
+- Best Irish Feature Documentary (Nominated)
+- Best Human Rights Feature (Nominated)
+- Best Documentary (Nominated)
 layout: page
 ---
 
