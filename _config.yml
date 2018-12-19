@@ -25,7 +25,9 @@ defaults:
     type: work
   values:
     excerpt:
+    description:
     image:
+    client:
     video:
     images:
     - image:
