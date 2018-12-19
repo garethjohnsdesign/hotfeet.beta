@@ -15,21 +15,21 @@
       <li{{ current }}><a href="#">{{ entry.title }}</a>
         <ul class="menu vertical nested">
             {% for sublink in sublinks %}
-            <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ sublink.url }}" data-toggle="offCanvasMenu">{{ sublink.title }}</a></li>
             {% endfor %}
          </ul>
       </li>
       
     <ul class="vertical menu">
       {% else %}
-        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h4">{{ entry.title }}</a></li>
+        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h4" data-toggle="offCanvasMenu">{{ entry.title }}</a></li>
       {% endif %}
       {% endfor %}
     </ul>
 
     <ul class="vertical menu margin-top-2 medium-gray">
-      <li><a href="/terms">Terms</a></li>
-      <li><a href="/privacy">Privacy</a></li>
+      <li><a href="/terms" data-toggle="offCanvasMenu">Terms</a></li>
+      <li><a href="/privacy" data-toggle="offCanvasMenu">Privacy</a></li>
     </ul>
 
     {% if site.social %}
