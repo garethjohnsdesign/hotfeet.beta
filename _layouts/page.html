@@ -2,18 +2,6 @@
 layout: default
 ---
 
-<!-- Page Excerpt -->
-{% if page.excerpt %}
-<section class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-left">
-    <div class="small-12 medium-10 large-9 medium-offset-1 large-offset-1 cell">
-      <h1 class="h3">{{page.excerpt}}</h1>
-    </div>
-  </div>
-</section>
-{% endif %}
-<!-- End Page Excerpt -->
-
 <!-- Page Image -->
 {% if page.image %}
 <section class="grid-container">
@@ -36,6 +24,18 @@ layout: default
 </section>
 {% endif %}
 <!-- End Page Image -->
+
+<!-- Page Excerpt -->
+{% if page.excerpt %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-left">
+    <div class="small-12 medium-10 large-9 medium-offset-1 large-offset-1 cell">
+      <h1 class="h3">{{page.excerpt}}</h1>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Page Excerpt -->
 
 <!-- Page Description -->
 {% if page.description %}
@@ -82,7 +82,6 @@ layout: default
 
 <!-- Page Quote -->
 {% if page.quotes %}
-
 {% for quote in page.quotes %}
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
@@ -93,7 +92,6 @@ layout: default
   </div>
 </section>
 {% endfor %}
-
 {% endif %}
 <!-- End Page Quote -->
 
@@ -102,6 +100,11 @@ layout: default
  <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 medium-10 cell text-center">
     
+    {% if page.discipline %}
+    <div>Client</div>
+  	<div class="secondary-color margin-bottom-1">{{ page.client }}</div>
+  	{% endif %}
+
     {% if page.discipline %}
     <div>Discipline</div>
   	<div class="secondary-color margin-bottom-1">{{ page.discipline }}</div>

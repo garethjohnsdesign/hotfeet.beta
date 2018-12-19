@@ -13,5 +13,3 @@ format:
 - 68min feature film
 layout: page
 ---
-
-Asylum seekers live inside the arrivals terminal of a decaying airport in Greece
