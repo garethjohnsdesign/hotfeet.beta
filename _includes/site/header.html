@@ -1,9 +1,9 @@
 <!-- Header -->
   
 <header class="grid-x grid-padding-x grid-padding-y padding-1 align-justify align-middle">
-  <div class="shrink cell swup-transition-fade" id="maintest">
+  <div class="auto cell swup-transition-fade" id="maintest">
   {% if page.layout == "page" %}
-  <a href="/" class="h4">{{page.title}}</a>
+  <a href="/" class="h4">{{page.title}}{% if page.client %}<span class="medium-gray padding-left-1 show-for-large">{{page.client}}</span>{% endif %}</a>
   {% else %}
   <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
   {% endif %}
