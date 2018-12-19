@@ -36,6 +36,7 @@
 body {
   cursor: default;
   font-kerning: normal;
+  margin: 0;
 }
 
 svg {
@@ -60,15 +61,6 @@ url('/assets/img/cursor@2x.png') 2x,
 ) 16 16, auto !important;
 }
 */
-
-
-// 3. Plugins
-// ----------
-
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: $primary-color;
-}
 
 
 // 4. Color
@@ -169,6 +161,24 @@ p {
 
 // X. Offcanvas
 // ---------
+
+.off-canvas-wrapper {
+    overflow: visible;
+}
+
+.off-canvas-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header, nav, footer {
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1 0 auto; /* Use 1 0 auto instead of just 1 for backwards compatibility with other browsers */
+}
 
 .off-canvas {
   @include links ($white, $medium-gray);
@@ -333,7 +343,7 @@ width: 100%;
 .home .excerpt {
   @include aspect-ratio (16, 9);
   @include breakpoint(medium) {
-  @include aspect-ratio (21, 9);
+  @include aspect-ratio (16, 9);
   }
 }
 
