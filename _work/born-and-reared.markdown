@@ -1,7 +1,7 @@
 ---
 title: Born and Reared
 date: 2016-07-08 13:22:00 Z
-position: 4
+position: 0
 excerpt: A story of four men in Northern Ireland living in the aftermath of a conflict
   that ended 18 years ago.
 image: "/uploads/born-and-reared-feature.jpg"
