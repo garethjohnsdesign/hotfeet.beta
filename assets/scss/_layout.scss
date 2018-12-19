@@ -402,3 +402,11 @@ html.is-animating .swup-transition-fade {
 html.is-animating .swup-transition-color {
   opacity: 0;
 }
+
+.swup-transition-none {
+  transition: 0.000005s;
+  opacity: 1;
+}
+html.is-animating .swup-transition-none {
+  opacity: 0;
+}
