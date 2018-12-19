@@ -1,7 +1,8 @@
 ---
-title: "The 52%"
+title: The 52%
 date: 2017-06-15 13:22:00 Z
-excerpt: We travelled around the country to meet a selection of the majority of British citizens who voted to leave the European Union
+excerpt: We travelled around the country to meet a selection of the majority of British
+  citizens who voted to leave the European Union
 image: "/uploads/the-52-percent-feature.jpg"
 video: https://vimeo.com/149032266
 is-featured: true
