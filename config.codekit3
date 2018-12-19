@@ -41,6 +41,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/_config.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/_config.yml",
+		"oF": 0
+		},
 	"/_data/navigation.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -402,6 +409,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/_uploads/the-52-percent-feature.jpg": {
+		"ft": 16384,
+		"iS": 1049923,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-52-percent-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/the-52-percent.jpg": {
 		"ft": 16384,
 		"iS": 695967,
@@ -472,6 +490,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_work/irelands-forgotten-children.markdown",
+		"oF": 0
+		},
+	"/_work/the-52-percent.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_work/the-52-percent.markdown",
 		"oF": 0
 		},
 	"/about.md": {
