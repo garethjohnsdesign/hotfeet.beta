@@ -21,7 +21,7 @@ layout: default
 <h3 class="margin-bottom-1 medium-gray">Team</h3>
 <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-1 large-up-3">
   {% for person in page.people %}
-	<div class="cell" data-aos="fade-in">
+	<div class="cell">
     <img src="{{ person.image }}" class="margin-bottom-1" alt="{{person.name}}">
     <h5 class="secondary-color margin-bottom-0">{{person.name}}</h5>
     <h5 class="margin-bottom-1">{{person.role}}</h5>
@@ -30,3 +30,18 @@ layout: default
 	{% endfor %}
 </div>
 </section>
+
+<!-- Clients -->
+{% if page.clients %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 cell padding-bottom-3">
+      <h3 class="margin-bottom-2 medium-gray">Clients + Collaborators</h3>
+      <div class="h5">
+      {{ page.clients }}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Clients -->

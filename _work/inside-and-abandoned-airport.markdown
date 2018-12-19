@@ -14,4 +14,3 @@ format:
 layout: page
 ---
 
-Asylum seekers live inside the arrivals terminal of a decaying airport in Greece
