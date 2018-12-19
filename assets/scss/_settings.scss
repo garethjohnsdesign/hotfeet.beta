@@ -130,6 +130,13 @@ $breakpoints: (
   xlarge: 1200px,
   xxlarge: 1440px,
 );
+$breakpoints: (
+  small: 0,
+  medium: 640px,
+  large: 1200px,
+  xlarge: 1440px,
+  xxlarge: 1600px,
+);
 $print-breakpoint: large;
 // $breakpoint-classes: (small medium large);
 $breakpoint-classes: (small medium large xlarge xxlarge);
@@ -170,6 +177,14 @@ $header-styles: (
   'medium': (
     'h1': ('font-size': 48, 'line-height': 1.2, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h2': ('font-size': 32, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h3': ('font-size': 28, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h4': ('font-size': 25, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h5': ('font-size': 20, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h6': ('font-size': 16, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom)
+  ),
+  'xxlarge': (
+    'h1': ('font-size': 48, 'line-height': 1.2, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h2': ('font-size': 32, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': 2rem),
     'h3': ('font-size': 28, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h4': ('font-size': 25, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h5': ('font-size': 20, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
@@ -895,7 +910,8 @@ $grid-margin-gutters: (
 */
 $grid-margin-gutters: (
   small: 2rem,
-  medium: 3rem
+  medium: 3rem,
+  xxlarge: 5rem
 );
 $grid-padding-gutters: $grid-margin-gutters;
 // $grid-container-padding: $grid-padding-gutters;

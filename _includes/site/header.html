@@ -3,7 +3,7 @@
 <header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" id="maintest">
   <div class="auto cell">
   {% if page.layout == "page" %}
-  <a href="/" class="h4">{{page.title}}{% if page.client %}<span class="medium-gray padding-left-1 show-for-large">{{page.client}}</span>{% endif %}</a>
+  <a href="/" class="h4 swup-transition-fade-up" id="maintesttwo">{{page.title}}{% if page.client %}<span class="medium-gray padding-left-1 show-for-large">{{page.client}}</span>{% endif %}</a>
   {% else %}
   <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
   {% endif %}
@@ -34,7 +34,7 @@
       
     <ul class="menu">
       {% else %}
-        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h4">{{ entry.title }}</a></li>
+        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h5">{{ entry.title }}</a></li>
       {% endif %}
       {% endfor %}
     </ul>
