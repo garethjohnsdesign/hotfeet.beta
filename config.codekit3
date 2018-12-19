@@ -910,6 +910,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/js/svgxuse.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/scss/_flickity.css": {
 		"aP": 0,
 		"bl": 0,
