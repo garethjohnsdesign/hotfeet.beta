@@ -29,6 +29,7 @@ defaults:
     image: 
     client: 
     video: 
+    is-featured:
     images:
     - image: 
       caption: 
