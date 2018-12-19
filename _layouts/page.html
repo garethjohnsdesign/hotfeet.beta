@@ -25,35 +25,10 @@ layout: default
 {% endif %}
 <!-- End Page Image -->
 
-<!-- Page Excerpt -->
-{% if page.excerpt %}
-<section class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 large-9 cell">
-      <h1 class="h3">{{page.excerpt}}</h1>
-    </div>
-  </div>
-</section>
-{% endif %}
-<!-- End Page Excerpt -->
-
-<!-- Page Description -->
-{% if page.description %}
-<section class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 cell">
-      <h2>{{page.description}}</h2>
-    </div>
-  </div>
-</section>
-{% endif %}
-<!-- End Page Description -->
-
 <!-- Page Carousel -->
 {% if page.has-carousel %}
 <div class="grid-x grid-padding-y align-center">
   <div class="small-12 cell">
-
     <div class="carousel__container">
       <div class="carousel">
         {% for carouselimage in page.images %}
@@ -62,22 +37,32 @@ layout: default
         {% endfor %}
       </div>
     </div>
-
   </div>
 </div>
 {% endif %}
 <!-- End Page Carousel -->
 
 <!-- Page Content -->
-{% if page.content %}
+{% assign content = page.content | strip_newlines %}
+{% unless content == ""  %}
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 cell page__content padding-bottom-2">
-      {{ page.content | replace: "/uploads", "https://earn-studios.imgix.net/uploads" | markdownify }}
+    <div class="small-12 medium-10 cell">
+      {{ page.content | replace: "/uploads", "https://hotfeet.imgix.net/uploads" | markdownify }}
+    </div>
+  </div>
+</section>
+{% else %}
+{% if page.excerpt %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-9 cell text-center">
+      <h1 class="h5">{{page.excerpt}}</h1>
     </div>
   </div>
 </section>
 {% endif %}
+{% endunless %}
 <!-- End Page Content -->
 
 <!-- Page Quote -->
