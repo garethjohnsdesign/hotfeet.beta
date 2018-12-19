@@ -332,6 +332,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/eliniko-a-refugee-camp.jpg": {
+		"ft": 16384,
+		"iS": 631135,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/eliniko-a-refugee-camp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/hen-norton.jpg": {
 		"ft": 16384,
 		"iS": 70857,
@@ -343,12 +354,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/_uploads/irelands-forgotten-mixed-race-child-abuse-victims.jpg": {
+	"/_uploads/irelands-forgotten-children-feature.jpg": {
 		"ft": 16384,
-		"iS": 350921,
+		"iS": 326626,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/_uploads/irelands-forgotten-mixed-race-child-abuse-victims.jpg",
+		"oAP": "/_uploads/irelands-forgotten-children-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -409,6 +420,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/the-dup-heartland.jpg": {
+		"ft": 16384,
+		"iS": 1413670,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-dup-heartland.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/toyota-runner-3.jpg": {
 		"ft": 16384,
 		"iS": 177936,
@@ -438,18 +460,25 @@
 		"oAP": "/_work/born-and-reared.markdown",
 		"oF": 0
 		},
-	"/_work/irelands-forgotten-mixed-race-child-abuse-victims.markdown": {
+	"/_work/dup-heartland.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/_work/irelands-forgotten-mixed-race-child-abuse-victims.markdown",
+		"oAP": "/_work/dup-heartland.markdown",
 		"oF": 0
 		},
-	"/_work/the-52-percent.markdown": {
+	"/_work/inside-and-abandoned-airport.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/_work/the-52-percent.markdown",
+		"oAP": "/_work/inside-and-abandoned-airport.markdown",
+		"oF": 0
+		},
+	"/_work/irelands-forgotten-children.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_work/irelands-forgotten-children.markdown",
 		"oF": 0
 		},
 	"/about.md": {
@@ -1505,7 +1534,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/bower_components/aos/dist/aos.js",
 		"oF": 0,
 		"sC": 1,
@@ -6961,7 +6990,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/bower_components/lightgallery/dist/js/lightgallery.js",
 		"oF": 0,
 		"sC": 1,
@@ -7048,7 +7077,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/bower_components/lightgallery/modules/lg-autoplay.js",
 		"oF": 0,
 		"sC": 1,
@@ -7168,7 +7197,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/bower_components/lightgallery/modules/lg-video.js",
 		"oF": 0,
 		"sC": 1,
@@ -8389,7 +8418,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/bower_components/swup/dist/swup.js",
 		"oF": 0,
 		"sC": 1,
@@ -9119,6 +9148,36 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/bower_components/foundation-sites/dist/js/foundation.js",
 			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/swup/dist/swup.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-autoplay.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.js",
+			"position": 6,
 			"type": 0
 			}
 		]

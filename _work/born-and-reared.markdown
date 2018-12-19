@@ -2,9 +2,10 @@
 title: Born and Reared
 date: 2016-07-08 13:22:00 Z
 position: 27
-excerpt: Maecenas sed diam eget risus varius blandit sit amet non magna.
+excerpt: A story of four men in Northern Ireland living in the aftermath of a conflict that ended 18 years ago.
 image: "/uploads/born-and-reared-feature.jpg"
-video: 143015938
+video: https://vimeo.com/149032266
+is-featured: true
 images:
 - image: "/uploads/toyota-runner-3.jpg"
   caption: Test

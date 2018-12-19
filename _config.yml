@@ -30,21 +30,21 @@ defaults:
     client:
     video:
     images:
-    - image:
-      caption:
-    discipline:
+    - image: 
+      caption: 
+    discipline: 
     format:
-    -
+    - 
     screenings:
     - 
     press:
-    - publication:
-      link:
+    - publication: 
+      link: 
     awards:
-    -
+    - 
     quotes:
-    - quote:
-      cite:
+    - quote: 
+      cite: 
     layout: page
 url: https://www.hotfeet.co
 description: We work across borders and cultural divides creating long and short form

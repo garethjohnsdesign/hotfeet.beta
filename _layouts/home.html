@@ -30,7 +30,7 @@ layout: default
   {% endif %}
 
   <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-1">
-    {% assign projects = paginator.posts | where: "is-selected", "true" %}
+    {% assign projects = paginator.posts | where: "is-featured", "true" %}
     {% for project in projects %}
      {% include blocks/excerpt.html %}
     {% endfor %}
