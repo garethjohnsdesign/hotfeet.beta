@@ -262,7 +262,7 @@ $scrollhide-nav-transition-speed: 1s;
 
 header {
   @include breakpoint(small) {
-    @include padding(1, 1, null, 1);
+    @include padding(1, 1, 1, 1);
   }
   @include breakpoint(medium) {
     @include padding(1, 1, null, 1);
@@ -400,13 +400,5 @@ html.is-animating .swup-transition-fade {
   opacity: 1;
 }
 html.is-animating .swup-transition-color {
-  opacity: 0;
-}
-
-.swup-transition-none {
-  transition: 0.000005s;
-  opacity: 1;
-}
-html.is-animating .swup-transition-none {
   opacity: 0;
 }
