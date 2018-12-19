@@ -10,12 +10,12 @@ layout: default
     </div>
   </div>
   
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-1 large-up-3">
     {% for person in page.people %}
   	<div class="cell" data-aos="fade-in">
       <img src="{{ person.image }}" class="margin-bottom-1" alt="{{person.name}}">
-      <h4 class="secondary-color margin-bottom-0">{{person.name}}</h4>
-      <h4 class="margin-bottom-1">{{person.role}}</h4>
+      <h5 class="secondary-color margin-bottom-0">{{person.name}}</h5>
+      <h5 class="margin-bottom-1">{{person.role}}</h5>
       {{person.description | markdownify}}
   	</div>
   	{% endfor %}

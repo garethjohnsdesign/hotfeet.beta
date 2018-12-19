@@ -2,7 +2,7 @@
 title: Team
 position: 5
 people:
-- image: "/uploads/hen-norton.jpg"
+- image: "/uploads/hen-norton-rev.jpg"
   name: Hen Norton
   role: Creative Director
   description: "London-born filmmaker Henrietta Norton honed her craft originally
@@ -15,7 +15,7 @@ people:
     has an innate ability to build trust with contributors and subjects quickly and
     genuinely. \n\nA previous Producer said of her; “You can drop her in anywhere,
     for any amount of time, and she’ll find and tell the most interesting story there.”"
-- image: "/uploads/dan-dennison.jpg"
+- image: "/uploads/dan-dennison-rev.jpg"
   name: Dan Dennison
   role: Director
   description: |-
@@ -24,7 +24,7 @@ people:
     Starting out as a Photojournalist for the Sunday Tribune newspaper in Dublin and a music photographer for NME, he has gone on to work with some of the largest brands, agencies and broadcast partners all over the world.
 
     He shot his first feature doc in 2016 in Northern Ireland which has toured more than 6 international film festivals. More recently he has been shooting and editing for various platforms like The Guardian and the New York Times.
-- image: "/uploads/mary-carson.jpg"
+- image: "/uploads/mary-carson-rev.jpg"
   name: Mary Carson
   role: Executive Producer
   description: "Mary Carson is a Derry-born Journalist, Multimedia Producer/Director
