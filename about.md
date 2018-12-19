@@ -1,7 +1,7 @@
 ---
 title: About
 position: 2
-description:
+description: 
 has-clients: true
 layout: about
 ---
