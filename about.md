@@ -5,7 +5,7 @@ description:
 people:
 - image: "/uploads/hen-norton-rev.jpg"
   name: Hen Norton
-  role: "Director / Producer"
+  role: Director / Producer
   description: "London-born filmmaker Henrietta Norton honed her craft originally
     in the arts; working with clients including the British Council, The Arts Council
     and independent production companies such as Artichoke and motiroti.\n\nStarting
@@ -18,7 +18,7 @@ people:
     for any amount of time, and she’ll find and tell the most interesting story there.”"
 - image: "/uploads/dan-dennison-rev.jpg"
   name: Dan Dennison
-  role: "Multimedia Journalist"
+  role: Multimedia Journalist
   description: |-
     Award-winning filmmaker and photographer/DOP. Dublin-born Dan has worked in both the documentary and commercial worlds for the last 12 years.
 
@@ -28,12 +28,13 @@ people:
 - image: "/uploads/mary-carson-rev.jpg"
   name: Mary Carson
   role: Executive Producer
-  description: "Journalist, Multimedia Producer/Director and Archive Specialist. In her time chasing stories, she has traveled extensively,
-    produced and directed, written, edited and photographed for newspapers, websites,
-    documentaries and books in Ireland, UK, the Gulf,  the US and Australia. \n\nShe
-    is firmly anchored in evidence-based journalism and has produced factual and news
-    content for BBC (TV and Radio), Channel 4's 'Dispatches' and 'Cutting Edge' strands;
-    BBC 4 Documentaries and The Guardian's  'Multimedia Investigations' team."
+  description: "Journalist, Multimedia Producer/Director and Archive Specialist. In
+    her time chasing stories, she has traveled extensively, produced and directed,
+    written, edited and photographed for newspapers, websites, documentaries and books
+    in Ireland, UK, the Gulf,  the US and Australia. \n\nShe is firmly anchored in
+    evidence-based journalism and has produced factual and news content for BBC (TV
+    and Radio), Channel 4's 'Dispatches' and 'Cutting Edge' strands; BBC 4 Documentaries
+    and The Guardian's  'Multimedia Investigations' team."
 has-clients: true
 layout: about
 ---
