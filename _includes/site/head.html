@@ -2,6 +2,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Accept-CH" content="DPR, Width, Viewport-Width">
   <meta name="google" content="notranslate" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -21,12 +22,13 @@
   <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  <meta http-equiv="Accept-CH" content="DPR, Width, Viewport-Width">
   
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <script src="/assets/js/min/app-min.js" defer></script>
+  <!-- Scripts -->
+  {% include site/scripts.html %}
+  <!-- End Scripts -->
 
   <!-- Google Analytics -->
   {% if site.analytics %}
