@@ -293,6 +293,12 @@
 		"oAP": "/_notes/film-workshop.markdown",
 		"oF": 0
 		},
+	"/_site": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/_site",
+		"oF": 0
+		},
 	"/_uploads/abandoned-airport-in-greece.jpg": {
 		"ft": 16384,
 		"iS": 716654,
@@ -304,12 +310,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/_uploads/born-and-reared.jpg": {
+	"/_uploads/born-and-reared-feature.jpg": {
 		"ft": 16384,
-		"iS": 1066277,
+		"iS": 1079840,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/_uploads/born-and-reared.jpg",
+		"oAP": "/_uploads/born-and-reared-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -425,13 +431,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/_work/abandoned-airport-in-greece.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_work/abandoned-airport-in-greece.markdown",
-		"oF": 0
-		},
 	"/_work/born-and-reared.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -444,20 +443,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_work/irelands-forgotten-mixed-race-child-abuse-victims.markdown",
-		"oF": 0
-		},
-	"/_work/made-in-belfast.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_work/made-in-belfast.markdown",
-		"oF": 0
-		},
-	"/_work/mixed-irish.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_work/mixed-irish.markdown",
 		"oF": 0
 		},
 	"/_work/the-52-percent.markdown": {

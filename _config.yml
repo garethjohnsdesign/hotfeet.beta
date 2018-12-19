@@ -24,20 +24,25 @@ defaults:
     path: ''
     type: work
   values:
-    client: 
-    excerpt: 
-    description: 
-    image: 
-    video: 
-    has-carousel-text: 
-    is-carousel: 
-    is-selected: 
-    has-carousel: 
+    excerpt:
+    image:
+    video:
     images:
-    - image: 
-      caption: 
-    quote: 
-    cite: 
+    - image:
+      caption:
+    discipline:
+    format:
+    -
+    screenings:
+    - 
+    press:
+    - publication:
+      link:
+    awards:
+    -
+    quotes:
+    - quote:
+      cite:
     layout: page
 url: https://www.hotfeet.co
 description: We work across borders and cultural divides creating long and short form

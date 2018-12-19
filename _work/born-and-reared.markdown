@@ -3,7 +3,7 @@ title: Born and Reared
 date: 2016-07-08 13:22:00 Z
 position: 27
 excerpt: Maecenas sed diam eget risus varius blandit sit amet non magna.
-image: "/uploads/born-and-reared.jpg"
+image: "/uploads/born-and-reared-feature.jpg"
 video: 143015938
 images:
 - image: "/uploads/toyota-runner-3.jpg"
