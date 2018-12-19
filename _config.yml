@@ -42,6 +42,7 @@ defaults:
     - publication: 
       link: 
     awards: 
+    -
     quotes:
     - quote: 
       cite: 
