@@ -35,7 +35,9 @@ people:
     evidence-based journalism and has produced factual and news content for BBC (TV
     and Radio), Channel 4's 'Dispatches' and 'Cutting Edge' strands; BBC 4 Documentaries
     and The Guardian's  'Multimedia Investigations' team."
-clients: The Guardian, The New York Times, BBC, VICE, Getty Images, Refinery 29, Caravan (All3Media), Lunar Pictures, BBC 3, YouTube, Pentagram, The Irish Government, Conde Nast, The Lovies, Buzzfeed, Courier, Southbank Centre
+clients: The Guardian, The New York Times, BBC, VICE, Getty Images, Refinery 29, Caravan
+  (All3Media), Lunar Pictures, BBC 3, YouTube, Pentagram, The Irish Government, Conde
+  Nast, The Lovies, Buzzfeed, Courier, Southbank Centre
 has-clients: true
 layout: about
 ---
