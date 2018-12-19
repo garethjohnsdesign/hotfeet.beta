@@ -250,6 +250,30 @@ $scrollhide-nav-transition-speed: 1s;
   }
 }
 
+header {
+  @include breakpoint(small) {
+    @include padding(1, 1, 1, 1);
+  }
+  @include breakpoint(medium) {
+    @include padding(1, 1, 1, 1);
+  }
+  @include breakpoint(xxlarge) {
+    @include padding(2, 4, null, 4);
+  }
+}
+
+footer {
+  @include breakpoint(small) {
+    @include padding(1, 1, 1, 1);
+  }
+  @include breakpoint(medium) {
+    @include padding(1, 1, 1, 1);
+  }
+  @include breakpoint(xxlarge) {
+    @include padding(2, 4, null, 4);
+  }
+}
+
 .pagination-image {
   background-size: cover; 
   background-position: 50%;
