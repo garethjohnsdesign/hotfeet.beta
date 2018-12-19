@@ -62,4 +62,15 @@ quotes:
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur dignissim dignissim. Donec pretium est sit amet ipsum fringilla feugiat. Aliquam
+‘Born and Reared’ is a 72 minute feature documentary about the contemporary identity of Northern Ireland, told via the personal stories of four men’s lives.
+The film tells the stories of 4 men in 2015, living in the aftermath of a war. It is the story about the reimagined identity of a place and the men who live there; told from a contemporary perspective for the first time since the signing of the Good Friday Agreement in Northern Ireland in 1998. Through the stories these men tell, the audience learn what is happening in Northern Ireland today.
+
+The men’s stories are contextualised by the country’s past but the film is firmly routed in their sense of identity and lives today. It is a contemporary social commentary and brings a different tale of the people who make up the place to audiences. With men traditionally seen as the stoic, tight lipped members of society, what do they say when given a platform and asked what they think? What are the hopes and fears for the future as told by these men?
+
+The film was inspired by the director’s own childhood during which she spent every weekend with her stepmum Mo Mowlam, in Northern Ireland. Coupled with Photojournalist and Director of Photography; Dan Dennison’s own experience growing up in the Republic of Ireland whilst having family and friends in the North. The two decided to make a film which told an honest and unedited account of the place and the perspectives of some of it’s  its inhabitants.
+
+Throughout the process of quiet observation and listening, we have sought to honestly explore Northern Ireland’s communities by spending time with them in their own homes over a year long period. We have focused on the stories that have taken place long ‘after the cameras have left’ when the news is assumed over but when, for the people on the ground, it is simply the beginning of a next phase or chapter.
+
+Dan and Hen have both worked all over the world in places of conflict and post conflict, Dan as a photojournalist and filmmaker for various news outlets and Hen as a creative producer and artist making short films and photographic projects.
+
+Through the distribution plan for this film, the exhibition and the accompanying journal, they are seeking to reach a wide and varied audience both locally and internationally. Through this work they hope to initiate a conversation amongst the projects’ audiences and participants.
