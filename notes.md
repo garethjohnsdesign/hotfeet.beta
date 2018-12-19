@@ -1,6 +1,6 @@
 ---
 title: Notes
-position: 1
+position: 2
 image: "/assets/img/og-image.png"
 layout: notes
 ---

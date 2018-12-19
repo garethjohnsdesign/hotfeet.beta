@@ -1,6 +1,6 @@
 ---
 title: Terms
-position: 7
+position: 6
 layout: page
 ---
 
