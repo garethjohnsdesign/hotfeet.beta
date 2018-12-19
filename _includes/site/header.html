@@ -1,6 +1,6 @@
 <!-- Header -->
 
-<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" id="maintest">
+<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle">
   <div class="auto cell">
   {% if page.layout == "page" %}
   <a href="/" class="h4">{{page.title}}{% if page.client %}<span class="medium-gray padding-left-1 show-for-large">{{page.client}}</span>{% endif %}</a>
@@ -12,7 +12,7 @@
     <div class="hide-for-xxlarge">
     <a data-toggle="offCanvasMenu" style="z-index: 1001"><svg class="icon icon-sort"><use xlink:href="/assets/icons/symbol-defs.svg#icon-sort"></use></svg></a>
     </div>
-    <div class="show-for-xxlarge">
+    <div class="show-for-xxlarge" id="maintest">
   {% for entry in site.data.navigation.header %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
   
       <ul class="menu" data-accordion-menu>
