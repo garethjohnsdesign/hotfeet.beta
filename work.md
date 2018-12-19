@@ -2,7 +2,7 @@
 title: Work
 position: 1
 header: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-  incididunt ut labore
+  incididunt ut labore.
 pagination:
   enabled: true
   collection: work
