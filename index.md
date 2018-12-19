@@ -10,7 +10,6 @@ selected-text:
 has-call-to-action: true
 call-to-action: Find out more about us, or tell us about you
 call-to-action-email: hello@hotfeet.co
-has-clients: true
 pagination:
   enabled: true
   collection: work

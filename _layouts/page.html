@@ -124,6 +124,24 @@ layout: default
     {% endfor %}
     </div>
     {% endif %}
+
+  	{% if page.screenings %}
+  	<div>Screenings</div>
+    <div class="secondary-color margin-bottom-1">
+    {% for screening in page.screenings %}
+    <div>{{ screening }}</div>
+    {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page.awards.size > 0 %}
+  	<div>Awards</div>
+    <div class="secondary-color margin-bottom-1">
+    {% for award in page.awards %}
+    <div>{{ award }}</div>
+    {% endfor %}
+    </div>
+    {% endif %}
   	
   </div>
  </div>

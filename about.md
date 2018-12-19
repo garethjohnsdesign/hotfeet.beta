@@ -2,6 +2,7 @@
 title: About
 position: 2
 description: 
+has-clients: true
 layout: about
 ---
 
@@ -19,4 +20,4 @@ Hot Feet's first feature film was nominated for multiple awards at festivals acr
 
 Clients and collaborators include: 
 
-The Guardian , The FT, Getty, The New York Times, The BBC, Vice, Refinery 29, Caravan, Lunar Pictures, BBC 3, YouTube, Pentagram, The Curzon, The Irish Embassy, Red Bull, Conde Nast, The Lovies, Buzzfeed, Cornerstone, Amplify, Converse, The Financial Times, The Irish Times, The Independent, Courier, Noisey, Pernod Ricard, Sony Playstation, Southbank Centre, UM Studios, Red Brick Road, Nike, Spotify, Rising Global Peace Forum 
+The Guardian, The New York Times, BBC, VICE, Getty Images, Refinery 29, Caravan (All3Media), Lunar Pictures, BBC 3, YouTube, Pentagram, The Irish Government, Conde Nast, The Lovies, Buzzfeed, Courier, Southbank Centre
