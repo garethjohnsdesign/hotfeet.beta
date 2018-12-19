@@ -1,7 +1,7 @@
 ---
 title: Inside an Abandoned Airport
 date: 2017-05-16 13:22:00 Z
-position: 27
+position: 4
 excerpt: Asylum seekers live inside the arrivals terminal of a decaying airport in
   Greece
 image: "/uploads/eliniko-a-refugee-camp.jpg"

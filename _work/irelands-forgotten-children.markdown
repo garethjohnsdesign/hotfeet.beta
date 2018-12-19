@@ -1,6 +1,7 @@
 ---
 title: Ireland's Forgotten Children
 date: 2017-02-24 13:22:00 Z
+position: 1
 excerpt: Rosemary Adaser was one of many mixed-race children considered illegitimate
   who was brought up in institutions run by the Catholic church in Ireland between
   the 1950s and 1970s
