@@ -2,7 +2,9 @@
 title: DUP Heartland
 date: 2016-07-08 13:22:00 Z
 position: 27
-excerpt: East Belfast is the heartland of Protestant, unionist politics and therefore, one would believe, the natural support for Northern Ireland’s Democratic Unionist party, we travelled to East Belfast to meet the core support for the party.
+excerpt: East Belfast is the heartland of Protestant, unionist politics and therefore,
+  one would believe, the natural support for Northern Ireland’s Democratic Unionist
+  party, we travelled to East Belfast to meet the core support for the party.
 image: "/uploads/the-dup-heartland.jpg"
 client: The Guardian
 video: https://vimeo.com/307010547
