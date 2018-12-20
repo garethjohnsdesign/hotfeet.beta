@@ -27,7 +27,6 @@ defaults:
     excerpt: 
     description: 
     image: 
-    client: 
     video: 
     is-featured: 
     images:
@@ -75,10 +74,7 @@ logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %Y"
 future: true
-social:
-  instagram: https://www.instagram.com/hotfeet/
-  facebook: https://www.facebook.com/hotfeet/
-  twitter: https://twitter.com/hotfeet
+social: 
 clients:
   bbc: https://www.bbc.co.uk
   conde-nast: https://www.condenast.co.uk

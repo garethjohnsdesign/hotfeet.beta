@@ -5,8 +5,8 @@ layout: default
 <!-- Page Content -->
 {% if page.content %}
 <section class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 cell padding-bottom-2">
+  <div class="grid-x grid-padding-x grid-padding-y align-left">
+    <div class="small-12 medium-10 large-10 cell padding-bottom-2">
       <h3 class="margin-bottom-2 medium-gray">Profile</h3>
       <div class="h5">
       {{ page.content | replace: "/uploads", "https://hot-feet.imgix.net/uploads" | markdownify }}
@@ -34,8 +34,8 @@ layout: default
 <!-- Clients -->
 {% if page.clients %}
 <section class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 cell padding-bottom-3">
+  <div class="grid-x grid-padding-x grid-padding-y align-left">
+    <div class="small-12 medium-10 large-10 cell padding-bottom-3">
       <h3 class="margin-bottom-2 medium-gray">Clients + Collaborators</h3>
       <div class="h5">
       {{ page.clients | markdownify }}
