@@ -27,7 +27,6 @@ defaults:
     excerpt: 
     description: 
     image: 
-    client: 
     video: 
     is-featured: 
     images:
