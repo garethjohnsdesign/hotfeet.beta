@@ -4,13 +4,13 @@ timezone: UTC
 collections:
   notes:
     title: Notes
-    output: true
+    output: false
   posts:
     title: Posts
-    output: true
+    output: false
   uploads:
     title: Uploads
-    output: true
+    output: false
   work:
     title: Work
     output: true
@@ -69,7 +69,7 @@ company-address: Office 5, Unit R1, Penfold Works, Imperial Way, Watford, WD24 4
 company-registration: '09383714'
 colophon: https://www.garethjohnsdesign.com
 email: hello@hotfeet.co
-analytics: 
+analytics: UA-131240985-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %Y"
