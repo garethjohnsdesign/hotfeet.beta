@@ -42,10 +42,10 @@ has-clients: true
 layout: about
 ---
 
-We work across borders and cultural divides creating long and short form content for online platforms, broadcast and cinematic release. 
+Our work takes us across borders and cultural divides to create long and short form content for online platforms, broadcast partners and cinematic release.
 
-We take time to find and create the most impactful, hard hitting, thoughtful and beautiful stories. 
+We take time to find and create the most impactful, hard hitting, thoughtful and beautiful stories.
 
-We work as a collective, celebrating talent, women filmmakers and broad experiences across sectors. We work with individuals and teams who demonstrate a breadth of skills and experiences. 
+As a working collective. we celebrate talent across sectors. We work with individuals and teams who demonstrate a breadth of skills and experiences.
 
-When building teams to assign to projects we seek out collaborators from, the third sector, journalism, filmmaking, the arts, designers, writers, charities and social entrepreneurs who can bring depth, experience and genuine understanding and empathy to the work we create and publish. 
+When building these teams we seek out collaborators from journalism, filmmaking, the arts, designers, writers, charities and social entrepreneurs and the voluntary sector who can bring depth, experience and genuine understanding and empathy to the work we create and publish.
