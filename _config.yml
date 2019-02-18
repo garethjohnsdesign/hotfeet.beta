@@ -1,5 +1,5 @@
 ---
-title: Hot Feet
+title: Hotfeet
 timezone: UTC
 collections:
   notes:
@@ -64,10 +64,10 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-company: Hot Feet Ltd
+company: Hotfeet Ltd
 company-address: Office 5, Unit R1, Penfold Works, Imperial Way, Watford, WD24 4YY
 company-registration: '09383714'
-colophon: https://www.garethjohnsdesign.com
+colophon: https://www.hotfeet.co
 email: hello@hotfeet.co
 analytics: UA-131240985-1
 logo: "/assets/img/logo.svg"
