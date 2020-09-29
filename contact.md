@@ -10,9 +10,9 @@ details:
   text: "[press@hotfeet.co](mailto:press@hotfeet.co)"
 - title: Location
   text: |-
-    3rd Floor,\
-    Fitzroy House,\
-    Ashwin Street,\
+    3rd Floor,
+    Fitzroy House,
+    Ashwin Street,
     London E8 3LP
 
     [Map](https://goo.gl/maps/JQ5exP1ueRMZUYpu9)
