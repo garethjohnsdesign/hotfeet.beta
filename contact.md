@@ -9,8 +9,13 @@ details:
 - title: Press + Media
   text: "[press@hotfeet.co](mailto:press@hotfeet.co)"
 - title: Location
-  text: "3rd Floor  \nFitzroy House\nAshwin Street\nLondon, E83LP\nUnited Kingdom
-    — [Map](https://goo.gl/maps/JQ5exP1ueRMZUYpu9)"
+  text: |-
+    3rd Floor,
+    Fitzroy House,
+    Ashwin Street,
+    London E8 3LP
+
+    United Kingdom — [Map](https://goo.gl/maps/JQ5exP1ueRMZUYpu9)
 - title: Collaborators
   text: We enjoy some great working relationships with some hugely talented creative
     specialists. We’re always looking to add to our network so to arrange a chat,
