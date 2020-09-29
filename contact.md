@@ -9,8 +9,8 @@ details:
 - title: Press + Media
   text: "[press@hotfeet.co](mailto:press@hotfeet.co)"
 - title: Location
-  text: "Studio 17  \n92-96 De Beauvoir Road  \nLondon N1 4EN  \nUnited Kingdom —
-    [Map](https://goo.gl/maps/532VLCUShQ62)"
+  text: "3rd Floor  \nFitzroy House\nAshwin Street\nLondon, E83LP\nUnited Kingdom
+    — [Map](https://goo.gl/maps/JQ5exP1ueRMZUYpu9)"
 - title: Collaborators
   text: We enjoy some great working relationships with some hugely talented creative
     specialists. We’re always looking to add to our network so to arrange a chat,
