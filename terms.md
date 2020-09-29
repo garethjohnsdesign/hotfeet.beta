@@ -41,4 +41,4 @@ Hot Feet may revise these terms of service for its website at any time without n
 
 ## Governing Law
 
-These terms and conditions are governed by and construed in accordance with the laws of United Kingdom and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
+These terms and conditions are governed by and construed in accordance with the laws of United Kingdom and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location
